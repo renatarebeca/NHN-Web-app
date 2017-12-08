@@ -1,0 +1,79 @@
+@media all and (max-width: 600px){
+    .section{
+        margin-top: 130px;
+    }
+.hosp{
+    margin-left: 25px;
+    width: 90%;
+    height: auto;
+}
+.facilities{
+        position: absolute;
+        left: 35%;
+        top: 100px;
+        width: 25%;
+        height: auto;
+    }
+.membership{
+        position: absolute;
+        left: 2%;
+        top: 245px;
+        width: 25%;
+        height: auto;
+    }
+.info{
+        position: absolute;
+        left: 30%;
+        top: 375px;
+        width: 25%;
+        height: auto;
+    }
+    
+.tickets{
+    
+    position: absolute;
+        left: 66.3%;
+        top: 262px;
+        width: 25%;
+        height: auto;
+    }
+}
+
+@media all and (min-width: 600px){
+.hosp{
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 40%;
+    height: auto;
+}
+    .facilities{
+        position: absolute;
+        left: 41%;
+        top: 12%;
+        width: 10%;
+        height: auto;
+    }
+.membership{
+        position: absolute;
+        left: 27%;
+        top: 47%;
+        width: 10%;
+        height: auto;
+    }
+.info{
+        position: absolute;
+        left: 38%;
+        top: 81%;
+        width: 10%;
+        height: auto;
+    }
+    
+.tickets{
+    
+    position: absolute;
+        left: 54%;
+        top: 52%;
+        width: 10%;
+        height: auto;
+    }
+}

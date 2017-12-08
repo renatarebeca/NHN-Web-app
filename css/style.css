@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.login{
+    color: #fff;
+    margin-top: 15%;
+    margin-bottom: 0;
+}
+
+.nhnlogo{
+    height: 7%;
+}
+
+nav a{
+    display: none;
+}
+nav{
+    text-align: center;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8FC989;
+}
+
+nav label {
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+a:not(.special){
+    float: left;
+}
+
+nav a {
+    color: #fff;
+    padding: 12px 7px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #fff;
+    background-color: #00A510;
+    text-decoration: none;
+}
+#cb{
+    display: none;
+}
+nav #cb:checked ~ a{
+    display: block;
+}
+.container{
+    text-align: center;
+    font-size: 130%;
+    margin-left: 20px;
+}
+.name, .pw{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #658162;
+}
+@media all and (max-width: 600px){
+    .home{
+        margin-top: 50px;
+    }
+    .notif{
+        height: 5%;
+        float: right;
+        margin-right: 20px;
+        margin-top: 8px;
+    }
+    .nhnlogo{
+        position: fixed;
+        padding-left: 20px;
+        padding-right: 20px;
+        left: 25%;
+        right: 30%;
+    }
+    form{
+        margin-top: 20px;
+    }
+    .name, .pw{
+        top: 5%;
+        width: 100%;
+    }
+    nav a{
+        float: none;
+        text-align: left;
+    }
+}
+
+@media (min-width: 600px){
+    .notif{
+        height: 5%;
+        float: right;
+        left: 97%;
+        position: sticky;
+        margin-top: 8px;
+    }
+
+    .container{
+        margin-top: 80px;
+    }
+    .name, .pw{
+        margin-top: 20px;
+        width: 50%;
+        border: 1px solid black;
+    }
+    .nhnlogo{
+        padding-right: 50px;
+        float:right;
+        height: 7%;
+    }
+
+    nav{
+        width: 100%;
+    }
+    nav a{
+        display: inline-block;
+        color: #fff;
+    }
+    nav a:hover {
+        color: #fff;
+        background-color: #00A510;
+        text-decoration: none;
+    }
+    nav label {
+        display: none;
+    }
+    a {
+        display: block;
+    }
+}
